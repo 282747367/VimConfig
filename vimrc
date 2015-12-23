@@ -16,9 +16,9 @@ runtime! debian.vim
 
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
-"if has("syntax")
+if has("syntax")
   syntax on
-"endif
+endif
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
@@ -51,11 +51,22 @@ runtime! debian.vim
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
-set nu
 
-set cursorline " 突出显示当前行
-set hlsearch " 搜索时高亮显示被找到的文本
-"set tabstop=4 " 设定tap长度为4
-"set smartindent "开启新行时使用智能缩进
+set nu " show line number
 
+set cursorline " highlight current line
 
+set hlsearch " highlight the searched text
+set incsearch " highlight while input the searching word
+
+set tabstop=4 " tap = 4
+set expandtab " tap as space
+set shiftwidth=4 " indent steps
+set softtabstop=4 " the moving steps of tab/backspace
+set smartindent " use smartindent when new a line
+
+set laststatus=2 " make statusline always shown
+
+" shift tab pages
+map <S-Left> :tabp<CR>
+map <S-Right> :tabn<CR>
