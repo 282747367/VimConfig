@@ -53,6 +53,7 @@ if filereadable("/etc/vim/vimrc.local")
 endif
 
 set nu " show line number
+set ruler " show the column number
 
 set cursorline " highlight current line
 
@@ -70,3 +71,12 @@ set laststatus=2 " make statusline always shown
 " shift tab pages
 map <S-Left> :tabp<CR>
 map <S-Right> :tabn<CR>
+
+map <F5> :NERDTree<CR>
+
+" nerd tree
+execute pathogen#infect()
+filetype plugin indent on
+
+" history length
+set history=200

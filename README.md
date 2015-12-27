@@ -23,6 +23,8 @@ echo  $VIM（注意大小写）
 
        不管怎么改用户版的vimrc文件，其中的内容都是是覆盖在全局vimrc文件中设置的内容，这就意味着你可以不需要去改变全局vimrc文件来进行配置vim，只需要修改用户vimrc文件。
 
+# VIM Command
+先敲入数字，然后敲入|，光标跳到指定列
 
 # NERDTree
 文件浏览器：NERDTree
@@ -31,12 +33,15 @@ echo  $VIM（注意大小写）
 
 https://github.com/scrooloose/nerdtree
 
+[注意]必须预安装pathogen.vim，同样是参见该网页。
+
 安装方法：
 
     进入.vim/bundle目录
     执行git clone git://github.com/scrooloose/nerdtree.git
     下载完成后，在bundle下会多出一个nerdtree的文件夹，所有相关插件都在该文件夹下
     在Vim中运行:Helptags来生成NERDTree的在线帮助tags
+    (不要听网上说的那些将文件拷来拷去的，没有用)
 
 # git config
 Git 提供了一个叫做 git config 的工具（译注：实际是 git-config 命令，只不过可以通过 git 加一个名字来呼叫此命令。），专门用来配置或读取相应的工作环境变量。而正是由这些环境变量，决定了 Git 在各个环节的具体工作方式和行为。这些变量可以存放在以下三个不同的地方：
