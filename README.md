@@ -45,6 +45,7 @@ https://github.com/scrooloose/nerdtree
 
 # Dash
 在vim中直接启动Dash并查询相关的手册。
+
 项目主页：https://github.com/rizzatti/dash.vim
 Examples:
 :Dash:
