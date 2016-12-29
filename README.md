@@ -43,6 +43,29 @@ https://github.com/scrooloose/nerdtree
     在Vim中运行:Helptags来生成NERDTree的在线帮助tags
     (不要听网上说的那些将文件拷来拷去的，没有用)
 
+# Dash
+在vim中直接启动Dash并查询相关的手册。
+项目主页：https://github.com/rizzatti/dash.vim
+Examples:
+:Dash:
+Will search for the word under the cursor in the docset corresponding to
+the current filetype.
+
+:Dash printf:
+Will search for the word 'printf' in the docset corresponding to the
+current filetype.
+
+:Dash setTimeout javascript
+Will search for the word 'setTimeout' in the 'javascript' docset.
+Tip: You can use to complete the keyword names.
+
+:Dash!
+Will search for the word under the cursor in all docsets (globally).
+
+:Dash! func
+ll search for 'func' in all docsets.
+
+
 # git config
 Git 提供了一个叫做 git config 的工具（译注：实际是 git-config 命令，只不过可以通过 git 加一个名字来呼叫此命令。），专门用来配置或读取相应的工作环境变量。而正是由这些环境变量，决定了 Git 在各个环节的具体工作方式和行为。这些变量可以存放在以下三个不同的地方：
 
