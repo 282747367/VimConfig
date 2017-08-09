@@ -1,23 +1,23 @@
 ## VIM
 说起配置Vim，首先要知道三个配置文件：vimrc，gvimrc和exrc。这些配置文件的位置油Vim的安装位置和操作系统决定。
 
-vimrc
+* vimrc
 
        vimrc是Vim最主要的配置文件，它有两个版本：全局版本（global）和用户版本（personal）。Michael建议修改用户版本。全局vimrc文件在Vim的安装目录中，我的电脑是Mac，所以其路径是
 
-/usr/share/vim/vimrc
+* /usr/share/vim/vimrc
 
        假如你不知道全局vimrc的位置，可以打开Vim，在普通模式（Normal）下输入下面的命令得到它的位置：
 
-echo  $VIM（注意大小写）
+* echo  $VIM（注意大小写）
 
        用户版本的vimrc文件在当前用户的主目录下，主目录的位置依赖于操作系统。Mac下的用户vimrc文件路径为：
 
-/Users/用户名/.vimrc（文件名前面的”.”代表这个文件是隐藏文件）
+* /Users/用户名/.vimrc（文件名前面的”.”代表这个文件是隐藏文件）
 
        你可以在Vim的普通模式下输入下面的命令，查找用户主目录的位置：
 
-:echo  $HOME
+* :echo  $HOME
 
        但是Mac下默认是没有用户vimrc的，所以需要你自己创建一个。
 
@@ -50,22 +50,22 @@ https://github.com/scrooloose/nerdtree
 
 Examples:
 
-:Dash:
+**:Dash:**  
 Will search for the word under the cursor in the docset corresponding to
 the current filetype.
 
-:Dash printf:
+**:Dash printf:**  
 Will search for the word 'printf' in the docset corresponding to the
 current filetype.
 
-:Dash setTimeout javascript
+**:Dash setTimeout javascript**  
 Will search for the word 'setTimeout' in the 'javascript' docset.
 Tip: You can use to complete the keyword names.
 
-:Dash!
+**:Dash!**  
 Will search for the word under the cursor in all docsets (globally).
 
-:Dash! func
+**:Dash! func**  
 ll search for 'func' in all docsets.
 
 
@@ -77,13 +77,13 @@ Git 提供了一个叫做 git config 的工具（译注：实际是 git-config �
    * 当前项目的 Git 目录中的配置文件（也就是工作目录中的 .git/config 文件）：这里的配置仅仅针对当前项目有效。每一个级别的配置都会覆盖上层的相同配置，所以 .git/config 里的配置会覆盖 /etc/gitconfig 中的同名变量。
 
 # ssh
-sudo apt-get install openssh-server openssh-client
-
+*ubuntu* sudo apt-get install openssh-server openssh-client
+**mac** (自带，无需安装)
 
 # Path List
-1-Mac
-vimrc: /usr/share/vim/vimrc (global); ~/.vimrc (user, create by yourself)  
-bashrc(for bash): /etc/bashrc, /etc/bashrc_Apple_Terminal (global); ~/.bash_rc (user create)  
-profile(for other shell): /etc/profile (global); ~/.profile (user create)  
-bash-completion: /usr/local/etc/bash_completion /usr/local/opt/bash-completion/etc/bash_completion [Be careful of 'bash-' and 'bash'_]  
-git-completion: /usr/local/etc/bash_completion.d/git-completion.bash /usr/local/opt/bash-completion/etc/bash_completion.d/git-completion.bash  
+1-Mac  
+ 1. vimrc: /usr/share/vim/vimrc (global); ~/.vimrc (user, create by yourself)  
+ 1. bashrc(for bash): /etc/bashrc, /etc/bashrc_Apple_Terminal (global); ~/.bash_rc (user create)  
+ 1. profile(for other shell): /etc/profile (global); ~/.profile (user create)  
+ 1. bash-completion: /usr/local/etc/bash_completion /usr/local/opt/bash-completion/etc/bash_completion [Be careful of 'bash-' and 'bash'_]  
+ 1. git-completion: /usr/local/etc/bash_completion.d/git-completion.bash /usr/local/opt/bash-completion/etc/bash_completion.d/git-completion.bash  
