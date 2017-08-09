@@ -27,8 +27,9 @@
 需要下载相应到~/.vim/colors/目录(或全局vim目录) 例如：
 ```
 cd ~/.vim/bundle \
-&& git clone git://github.com/altercation/vim-colors-solarized.git \
-&& cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
+&& git clone git://github.com/altercation/vim-colors-solarized.git
+或者
+cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
 ```
 然后在vimrc中增加一行 colorscheme solarized
 参考当前github fork的仓库：vim-colors-solarized
