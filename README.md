@@ -65,8 +65,9 @@ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
     (不要听网上说的那些将文件拷来拷去的，没有用)
 
 # Dash
-在vim中直接启动Dash并查询相关的手册。
+在vim中直接启动Dash并查询相关的手册。  
 
+需要安装dash.vim  
 项目主页：https://github.com/rizzatti/dash.vim 
 
 Examples:
