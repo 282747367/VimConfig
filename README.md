@@ -64,13 +64,18 @@ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
     在Vim中运行:Helptags来生成NERDTree的在线帮助tags
     (不要听网上说的那些将文件拷来拷去的，没有用)
 
-# Dash
+# Dash（mac only）
 在vim中直接启动Dash并查询相关的手册。  
 
-需要安装dash.vim  
-项目主页：https://github.com/rizzatti/dash.vim 
+需要安装dash插件  
+项目主页：https://github.com/rizzatti/dash.vim  
+安装方法（以pathogen为例）：  
+```
+cd ~/.vim/bundle
+git clone https://github.com/rizzatti/dash.vim.git
+```
 
-Examples:
+命令 Examples:
 
 **:Dash:**  
 Will search for the word under the cursor in the docset corresponding to
@@ -89,6 +94,15 @@ Will search for the word under the cursor in all docsets (globally).
 
 **:Dash! func**  
 ll search for 'func' in all docsets.
+
+# Vue
+需要安装vue插件  
+项目地址：https://github.com/posva/vim-vue  
+安装方法（以pathogen为例）：  
+```
+cd ~/.vim/bundle && \
+git clone https://github.com/posva/vim-vue.git
+```
 
 
 # git config
