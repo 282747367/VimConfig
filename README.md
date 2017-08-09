@@ -31,8 +31,8 @@ cd ~/.vim/bundle \
 或者
 cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
 ```
-然后在vimrc中增加一行 colorscheme solarized
-参考当前github fork的仓库：vim-colors-solarized
+然后在vimrc中增加一行 colorscheme solarized  
+参考当前github fork的仓库：vim-colors-solarized  
 
 # VIM Command
 先敲入数字，然后敲入|，光标跳到指定列
