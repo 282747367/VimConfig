@@ -22,6 +22,17 @@
        但是Mac下默认是没有用户vimrc的，所以需要你自己创建一个。
 
        不管怎么改用户版的vimrc文件，其中的内容都是是覆盖在全局vimrc文件中设置的内容，这就意味着你可以不需要去改变全局vimrc文件来进行配置vim，只需要修改用户vimrc文件。
+       
+# VIM配色
+需要下载相应到~/.vim/colors/目录(或全局vim目录) 例如：
+```
+cd ~/.vim/bundle \
+&& git clone git://github.com/altercation/vim-colors-solarized.git
+或者
+git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle
+```
+然后在vimrc中增加一行 colorscheme solarized
+参考当前github fork的仓库：vim-colors-solarized
 
 # VIM Command
 先敲入数字，然后敲入|，光标跳到指定列
@@ -29,16 +40,20 @@
 # NERDTree
 文件浏览器：NERDTree
 
-NERDTree项目地址：
-
+NERDTree项目地址：  
 https://github.com/scrooloose/nerdtree  
+NERTree安装命令：
+```
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+```
 
 [注意]运行运行:Helptags以更新帮助文档(H大写)
 [注意]必须预安装pathogen.vim
  * pathogen项目地址：https://github.com/tpope/vim-pathogen
  * pathogen安装命令为
  ```
- mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+ mkdir -p ~/.vim/autoload ~/.vim/bundle \
+ && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
  ```
 
 安装方法：
