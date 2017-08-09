@@ -82,8 +82,8 @@ Git 提供了一个叫做 git config 的工具（译注：实际是 git-config �
 
 # Path List
 1-Mac  
- 1. vimrc: /usr/share/vim/vimrc (global); ~/.vimrc (user, create by yourself)  
- 1. bashrc(for bash): /etc/bashrc, /etc/bashrc_Apple_Terminal (global); ~/.bash_rc (user create)  
- 1. profile(for other shell): /etc/profile (global); ~/.profile (user create)  
- 1. bash-completion: /usr/local/etc/bash_completion /usr/local/opt/bash-completion/etc/bash_completion [Be careful of 'bash-' and 'bash'_]  
- 1. git-completion: /usr/local/etc/bash_completion.d/git-completion.bash /usr/local/opt/bash-completion/etc/bash_completion.d/git-completion.bash  
+ 1. **vimrc**: /usr/share/vim/vimrc (global); ~/.vimrc (user, create by yourself)  
+ 1. **bashrc(for bash)**: /etc/bashrc, /etc/bashrc\_Apple\_Terminal (global); ~/.bash\_rc (user create)  
+ 1. **profile(for other shell)**: /etc/profile (global); ~/.profile (user create)  
+ 1. **bash-completion**: /usr/local/etc/bash\_completion /usr/local/opt/bash-completion/etc/bash\_completion [Be careful of 'bash-' and 'bash'\_]  
+ 1. **git-completion**: /usr/local/etc/bash\_completion.d/git-completion.bash /usr/local/opt/bash-completion/etc/bash\_completion.d/git-completion.bash  
