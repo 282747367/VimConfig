@@ -82,8 +82,8 @@ sudo apt-get install openssh-server openssh-client
 
 # Path List
 1-Mac
-vimrc: /usr/share/vim/vimrc (global); ~/.vimrc (user, create by yourself)
-bashrc(for bash): /etc/bashrc, /etc/bashrc_Apple_Terminal (global); ~/.bash_rc (user create)
-profile(for other shell): /etc/profile (global); ~/.profile (user create)
-bash-completion: /usr/local/etc/bash_completion /usr/local/opt/bash-completion/etc/bash_completion [Be careful of 'bash-' and 'bash'_]
-git-completion: /usr/local/etc/bash_completion.d/git-completion.bash /usr/local/opt/bash-completion/etc/bash_completion.d/git-completion.bash
+vimrc: /usr/share/vim/vimrc (global); ~/.vimrc (user, create by yourself)  
+bashrc(for bash): /etc/bashrc, /etc/bashrc_Apple_Terminal (global); ~/.bash_rc (user create)  
+profile(for other shell): /etc/profile (global); ~/.profile (user create)  
+bash-completion: /usr/local/etc/bash_completion /usr/local/opt/bash-completion/etc/bash_completion [Be careful of 'bash-' and 'bash'_]  
+git-completion: /usr/local/etc/bash_completion.d/git-completion.bash /usr/local/opt/bash-completion/etc/bash_completion.d/git-completion.bash  
