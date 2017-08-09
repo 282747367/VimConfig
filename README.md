@@ -29,11 +29,17 @@
 # NERDTree
 文件浏览器：NERDTree
 
-项目地址：
+NERDTree项目地址：
 
-https://github.com/scrooloose/nerdtree
+https://github.com/scrooloose/nerdtree  
 
-[注意]必须预安装pathogen.vim，同样是参见该网页。
+[注意]运行运行:Helptags以更新帮助文档(H大写)
+[注意]必须预安装pathogen.vim
+ * pathogen项目地址：https://github.com/tpope/vim-pathogen
+ * pathogen安装命令为
+ ```
+ mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+ ```
 
 安装方法：
 
